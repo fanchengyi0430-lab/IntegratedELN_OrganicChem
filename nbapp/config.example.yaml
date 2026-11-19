@@ -1,0 +1,7 @@
+# Settings for the notebook app. Restart the app after editing.
+user: ""                # name written to the change log with each save
+port: 8765              # the app uses the next free port if this one is taken
+inventory_dir: inventory # folder of inventory .xlsx exports, relative to the project folder
+own_group: ""           # this group's bottles are listed first in inventory searches
+schedule_and_supplies: "off" # set to "on" to enable the schedule, supplies and waste log
+reference_lookup: "off" # set to pubchem to enable user-requested compound look-up

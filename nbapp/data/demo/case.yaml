@@ -1,0 +1,7 @@
+title: Demo notebook
+demo: true
+researcher: Demo researcher
+project_question: Can the textbook double aldol condensation supply dibenzalacetone on a 50 mmol scale?
+caveats: ['Teaching notebook. Every value in it is invented, and none is a measurement. Only the literature procedure and its yield are real.']
+references: {1: 'Conard, C. R.; Dolliver, M. A. Org. Synth. 1932, 12, 22. DOI: 10.15227/orgsyn.012.0022.'}
+notebook: Demo notebook.docx

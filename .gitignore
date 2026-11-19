@@ -1,0 +1,47 @@
+# Track the application and keep notebook workspaces local.
+/*
+!/.gitignore
+!/.gitattributes
+!/.github/
+/.github/*
+!/.github/workflows/
+/.github/workflows/*
+!/.github/workflows/windows-release.yml
+!/README.md
+!/LICENSE
+!/docs/
+!/Start Notebook.bat
+!/nbapp/
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+/nbapp/runtime/
+/nbapp/sketcher/ketcher/
+/nbapp/packaging/_downloads/
+/nbapp/tests/*
+!/nbapp/tests/test_inventory_onboarding.py
+!/nbapp/tests/inventory_onboarding.cjs
+/nbapp/tools/
+.env
+.env.*
+*.pem
+*.key
+*.log
+**/records/
+**/NMR/
+**/_logs/
+**/Notebook backups/
+**/chemicals Inventory/
+**/followups.yaml
+!/nbapp/data/demo/followups.yaml
+*.mnova
+*.cdx
+*.cdxml
+!/nbapp/data/blank.cdxml
+*.docx
+*.xlsx
+!/nbapp/data/demo/inventory/Teaching inventory.xlsx
+*.pptx
+*.pdf

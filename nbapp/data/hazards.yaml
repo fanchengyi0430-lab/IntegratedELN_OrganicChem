@@ -1,0 +1,75 @@
+# Hazard prompts shown in the planner and on bench cards.
+# These are reminders from a short rule list, not a safety assessment: always check the SDS and group SOPs.
+# Edit freely. Each rule fires when every pattern in `all` and at least one in `any` matches a material name
+# (case-insensitive regular expressions). Levels: warning, caution, waste.
+rules:
+  - id: nah-polar-aprotic
+    level: warning
+    all: ['\b(nah|sodium hydride)\b', '\b(dmf|dmac|dmso|dimethylformamide|dimethylacetamide|dimethyl sulfoxide)\b']
+    text: "Sodium hydride in DMF, DMAc or DMSO can run away thermally and has caused explosions, especially when heated or on scale. Assess before heating; consider THF or another base."
+  - id: nah
+    level: caution
+    any: ['\b(nah|sodium hydride)\b']
+    text: "Sodium hydride: water-reactive, releases hydrogen. Quench slowly and keep away from water and protic solvents until the quench."
+  - id: hydrazine
+    level: caution
+    any: ['hydrazin', 'hydrazo', '\bhz\b']
+    text: "Hydrazine derivative: treat as toxic and a possible carcinogen. Avoid skin contact and dust; check the SDS for this compound."
+  - id: azo
+    level: caution
+    any: ['azoarene', 'azobenzene', 'diazene', '\bazo\b']
+    text: "Azo compound: many are toxic or suspected carcinogens; handle as such unless the SDS says otherwise."
+  - id: hbf4
+    level: warning
+    any: ['hbf4', 'tetrafluoroboric', 'fluoroboric']
+    text: "Tetrafluoroboric acid: strongly corrosive and can release HF on hydrolysis. Wear acid-resistant gloves, work in the hood and know where the calcium gluconate gel is."
+  - id: dmp
+    level: warning
+    any: ['dess.?martin', '\bdmp\b', 'periodinane']
+    text: "Dess–Martin periodinane: can decompose violently on heating or impact. Do not heat or grind the dry solid."
+  - id: ncs
+    level: caution
+    any: ['chlorosuccinimide', '\bncs\b']
+    text: "N-Chlorosuccinimide: oxidizer and irritant; N-chloro intermediates of anilines can be unstable. Keep cold as planned and do not concentrate reactive intermediates."
+  - id: nitroso
+    level: caution
+    any: ['nitroso']
+    text: "Nitroso compound: toxic and a suspected mutagen. Weigh in the hood."
+  - id: allyl-halide
+    level: caution
+    any: ['allyl bromide', 'allyl chloride', 'benzyl bromide', 'bromoacet']
+    text: "Alkylating agent and lachrymator: toxic, handle only in the hood and quench residues before disposal."
+  - id: zinc-dust
+    level: caution
+    any: ['\bzinc\b', '\bzn\b']
+    text: "Zinc dust: flammable solid. Spent zinc from reductions can ignite when dry; keep the filter cake wet and dispose of it as metal waste."
+  - id: strong-acid
+    level: caution
+    any: ['trifluoroacetic', '\btfa\b', '\bhcl\b', 'hydrochloric', 'sulfuric', 'triflic', 'tsoh', 'toluenesulfonic']
+    text: "Strong acid: corrosive. Add slowly and neutralize aqueous waste before disposal."
+  - id: azide
+    level: warning
+    any: ['azide', '\bnan3\b', 'tmsn3']
+    text: "Azide: toxic and potentially explosive. No metal spatulas, no halogenated solvents with sodium azide, no acid contact."
+  - id: peroxide
+    level: warning
+    any: ['peroxide', 'mcpba', 'peracid', '\btbhp\b']
+    text: "Peroxide or peracid: can decompose violently. Use a blast shield on scale and test for residual peroxide before concentrating."
+  - id: pyrophoric
+    level: warning
+    any: ['butyllithium', '\bn-?buli\b', '\bt-?buli\b', 'trimethylaluminium', 'trimethylaluminum', 'diethylzinc']
+    text: "Pyrophoric reagent: transfer under inert gas with a dry syringe or cannula; have a quench bath and sand ready."
+  - id: hydride
+    level: warning
+    any: ['lialh4', 'lithium aluminium hydride', 'lithium aluminum hydride', 'dibal']
+    text: "Reactive hydride: violent with water. Quench cold by the Fieser method or with Rochelle salt."
+  - id: chlorinated-solvent
+    level: waste
+    any: ['\bdcm\b', 'dichloromethane', 'chcl3', 'chloroform', '\bdce\b', 'dichloroethane', 'phcf3', 'trifluorotoluene']
+    text: "Halogenated solvent: collect in halogenated waste. Chloroform and 1,2-dichloroethane are suspected carcinogens."
+  - id: metal-waste
+    level: waste
+    any: ['\bzinc\b', 'palladium', 'ruthenium', 'copper', 'nickel', 'chromium']
+    text: "Metal-containing residues: collect separately as metal waste."
+
+# Solvent boiling points and their sources are in solvents.yaml.

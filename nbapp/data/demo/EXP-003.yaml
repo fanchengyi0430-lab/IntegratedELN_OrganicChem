@@ -1,0 +1,20 @@
+id: EXP-003
+schema_version: 1
+title: Dibenzalacetone at 50 mmol, dried to constant weight
+type: synthesis
+status: planned
+researcher: Demo researcher
+question: Does the 10 mmol procedure hold at 50 mmol, and what is the yield of the dried solid?
+key_result: planned
+notes: [Demo record. All values are invented for teaching.]
+flags: []
+procedure: [As Exp 1 at five times the scale. Dry the solid at room temperature to constant weight before weighing.]
+procedure_basis: Planned. Adapted from ref 1.
+planned: true
+materials:
+- {id: R1, name: acetone, formula: C3H6O, mw: 58.08, smiles: CC(C)=O, inchikey: CSCPPACGZOOCGX-UHFFFAOYSA-N, density: 0.7845, density_basis: 'literature: handbook value, entered for the demo. Check it before use.', amount: '2.904 g, 3.70 mL', mmol: 50.0, equiv: 1.0}
+- {id: R2, name: benzaldehyde, formula: C7H6O, mw: 106.124, smiles: O=Cc1ccccc1, density: 1.044, density_basis: 'literature: handbook value, entered for the demo. Check it before use.', amount: '10.612 g, 10.17 mL', mmol: 100.0, equiv: 2.0}
+- {id: A1, name: sodium hydroxide, formula: NaOH, mw: 39.997, amount: 10.00 g, mmol: 250.0, equiv: 5.0}
+- {id: S1, name: water, amount: 100 mL}
+- {id: S2, name: ethanol, amount: 80 mL}
+- {id: P1, name: dibenzalacetone, formula: C17H14O, mw: 234.298, smiles: O=C(/C=C/c1ccccc1)/C=C/c1ccccc1, inchikey: WMKGGPCROCCUDY-PHEQNACWSA-N, amount: 11.715 g theoretical, mmol: 50.0}

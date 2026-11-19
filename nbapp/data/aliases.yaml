@@ -1,0 +1,130 @@
+# Abbreviations and short formulas for common reagents and solvents.
+# Each entry gives the CAS number and the names found on bottles and in records.
+# `also` lists other spellings of the abbreviation. Keep CAS numbers in quotes.
+# Every CAS number passed its check digit and was compared with the names a
+# chemical inventory export gives that number (18 Nov 2026). Add your own rows freely.
+
+# Solvents
+DCM: {cas: '75-09-2', names: [dichloromethane, methylene chloride], also: [CH2Cl2]}
+CHCl3: {cas: '67-66-3', names: [chloroform]}
+DCE: {cas: '107-06-2', names: ['1,2-dichloroethane']}
+THF: {cas: '109-99-9', names: [tetrahydrofuran]}
+2-MeTHF: {cas: '96-47-9', names: [2-methyltetrahydrofuran]}
+MeCN: {cas: '75-05-8', names: [acetonitrile], also: [ACN, CH3CN]}
+EtOAc: {cas: '141-78-6', names: [ethyl acetate]}
+MeOH: {cas: '67-56-1', names: [methanol, methyl alcohol]}
+EtOH: {cas: '64-17-5', names: [ethanol, ethyl alcohol, absolute ethanol]}
+iPrOH: {cas: '67-63-0', names: [isopropanol, 2-propanol, isopropyl alcohol], also: [IPA]}
+Et2O: {cas: '60-29-7', names: [diethyl ether, ethyl ether]}
+MTBE: {cas: '1634-04-4', names: [tert-butyl methyl ether, methyl tert-butyl ether], also: [TBME]}
+PhCF3: {cas: '98-08-8', names: [trifluorotoluene, '(trifluoromethyl)benzene', benzotrifluoride, 'a,a,a-trifluorotoluene']}
+PhMe: {cas: '108-88-3', names: [toluene]}
+DMF: {cas: '68-12-2', names: ['N,N-dimethylformamide', dimethylformamide]}
+DMAc: {cas: '127-19-5', names: ['N,N-dimethylacetamide', dimethylacetamide]}
+DMSO: {cas: '67-68-5', names: [dimethyl sulfoxide, dimethylsulfoxide, methyl sulfoxide]}
+NMP: {cas: '872-50-4', names: [1-methyl-2-pyrrolidinone, N-methyl-2-pyrrolidone]}
+HFIP: {cas: '920-66-1', names: ['1,1,1,3,3,3-hexafluoro-2-propanol', hexafluoroisopropanol]}
+TFE: {cas: '75-89-8', names: ['2,2,2-trifluoroethanol']}
+DME: {cas: '110-71-4', names: ['1,2-dimethoxyethane', ethylene glycol dimethyl ether]}
+
+# Deuterated solvents
+CDCl3: {cas: '865-49-6', names: [chloroform-d]}
+DMSO-d6: {cas: '2206-27-1', names: [dimethyl sulfoxide-d6]}
+CD3OD: {cas: '811-98-3', names: [methanol-d4]}
+C6D6: {cas: '1076-43-3', names: [benzene-d6]}
+CD2Cl2: {cas: '1665-00-5', names: [dichloromethane-d2, methylene chloride-d2]}
+CD3CN: {cas: '2206-26-0', names: [acetonitrile-d3]}
+D2O: {cas: '7789-20-0', names: [deuterium oxide]}
+
+# Acids and anhydrides
+AcOH: {cas: '64-19-7', names: [acetic acid]}
+TFA: {cas: '76-05-1', names: [trifluoroacetic acid]}
+TfOH: {cas: '1493-13-6', names: [trifluoromethanesulfonic acid, triflic acid]}
+MsOH: {cas: '75-75-2', names: [methanesulfonic acid]}
+TsOH·H2O: {cas: '6192-52-5', names: [p-toluenesulfonic acid monohydrate], also: [TsOH, PTSA]}
+HCl: {cas: '7647-01-0', names: [hydrochloric acid, hydrogen chloride]}
+H2SO4: {cas: '7664-93-9', names: [sulfuric acid]}
+HBF4: {cas: '16872-11-0', names: [tetrafluoroboric acid, fluoroboric acid], also: [HBF4·H2O]}
+HBF4·Et2O: {cas: '67969-82-8', names: [tetrafluoroboric acid diethyl ether complex]}
+Ac2O: {cas: '108-24-7', names: [acetic anhydride]}
+TFAA: {cas: '407-25-0', names: [trifluoroacetic anhydride]}
+Tf2O: {cas: '358-23-6', names: [trifluoromethanesulfonic anhydride, triflic anhydride]}
+BF3·OEt2: {cas: '109-63-7', names: [boron trifluoride diethyl etherate, boron trifluoride etherate], also: [BF3·Et2O]}
+
+# Bases
+DBU: {cas: '6674-22-2', names: ['1,8-diazabicyclo[5.4.0]undec-7-ene', '1,8-diazabicycloundec-7-ene']}
+DBN: {cas: '3001-72-7', names: ['1,5-diazabicyclo[4.3.0]non-5-ene']}
+DABCO: {cas: '280-57-9', names: ['1,4-diazabicyclo[2.2.2]octane']}
+DIPEA: {cas: '7087-68-5', names: ['N,N-diisopropylethylamine', N-ethyldiisopropylamine], also: [DIEA, iPr2NEt]}
+Et3N: {cas: '121-44-8', names: [triethylamine], also: [NEt3, TEA]}
+DMAP: {cas: '1122-58-3', names: ['4-(dimethylamino)pyridine', 4-dimethylaminopyridine]}
+TMEDA: {cas: '110-18-9', names: ["N,N,N',N'-tetramethylethylenediamine"]}
+NaH: {cas: '7646-69-7', names: [sodium hydride]}
+LDA: {cas: '4111-54-0', names: [lithium diisopropylamide]}
+LiHMDS: {cas: '4039-32-1', names: ['lithium bis(trimethylsilyl)amide']}
+NaHMDS: {cas: '1070-89-9', names: ['sodium bis(trimethylsilyl)amide']}
+KHMDS: {cas: '40949-94-8', names: ['potassium bis(trimethylsilyl)amide']}
+n-BuLi: {cas: '109-72-8', names: [n-butyllithium, butyllithium], also: [nBuLi]}
+KOtBu: {cas: '865-47-4', names: [potassium tert-butoxide], also: [t-BuOK]}
+NaOtBu: {cas: '865-48-5', names: [sodium tert-butoxide], also: [t-BuONa]}
+NaOH: {cas: '1310-73-2', names: [sodium hydroxide]}
+KOH: {cas: '1310-58-3', names: [potassium hydroxide]}
+NaOMe: {cas: '124-41-4', names: [sodium methoxide]}
+K2CO3: {cas: '584-08-7', names: [potassium carbonate]}
+Cs2CO3: {cas: '534-17-8', names: [cesium carbonate]}
+Na2CO3: {cas: '497-19-8', names: [sodium carbonate]}
+NaHCO3: {cas: '144-55-8', names: [sodium bicarbonate, sodium hydrogen carbonate]}
+K3PO4: {cas: '7778-53-2', names: [potassium phosphate tribasic]}
+DMPU: {cas: '7226-23-5', names: ['1,3-dimethyl-3,4,5,6-tetrahydro-2(1H)-pyrimidinone']}
+HMPA: {cas: '680-31-9', names: [hexamethylphosphoramide, hexamethylphosphoric triamide]}
+
+# Reagents
+NBS: {cas: '128-08-5', names: [N-bromosuccinimide]}
+NCS: {cas: '128-09-6', names: [N-chlorosuccinimide]}
+NIS: {cas: '516-12-1', names: [N-iodosuccinimide]}
+mCPBA: {cas: '937-14-4', names: [3-chloroperbenzoic acid, 3-chloroperoxybenzoic acid], also: [m-CPBA]}
+DDQ: {cas: '84-58-2', names: ['2,3-dichloro-5,6-dicyano-1,4-benzoquinone']}
+TEMPO: {cas: '2564-83-2', names: ['2,2,6,6-tetramethylpiperidine 1-oxyl']}
+AIBN: {cas: '78-67-1', names: ["2,2'-azobisisobutyronitrile", azobisisobutyronitrile]}
+DMP: {cas: '87413-09-0', names: [Dess-Martin periodinane]}
+TBAF: {cas: '429-41-4', names: [tetrabutylammonium fluoride]}
+TBAI: {cas: '311-28-4', names: [tetrabutylammonium iodide]}
+TBAB: {cas: '1643-19-2', names: [tetrabutylammonium bromide]}
+TMSCl: {cas: '75-77-4', names: [chlorotrimethylsilane, trimethylsilyl chloride]}
+TMSOTf: {cas: '27607-77-8', names: [trimethylsilyl trifluoromethanesulfonate]}
+TBSCl: {cas: '18162-48-6', names: [tert-butyldimethylsilyl chloride, tert-butyldimethylchlorosilane], also: [TBDMSCl]}
+TIPSCl: {cas: '13154-24-0', names: [triisopropylsilyl chloride, triisopropylchlorosilane]}
+TsCl: {cas: '98-59-9', names: [p-toluenesulfonyl chloride]}
+MsCl: {cas: '124-63-0', names: [methanesulfonyl chloride]}
+Boc2O: {cas: '24424-99-5', names: [di-tert-butyl dicarbonate]}
+CDI: {cas: '530-62-1', names: ["1,1'-carbonyldiimidazole"]}
+DCC: {cas: '538-75-0', names: ["N,N'-dicyclohexylcarbodiimide", '1,3-dicyclohexylcarbodiimide']}
+DIC: {cas: '693-13-0', names: ["N,N'-diisopropylcarbodiimide", '1,3-diisopropylcarbodiimide']}
+EDC·HCl: {cas: '25952-53-8', names: ['1-(3-dimethylaminopropyl)-3-ethylcarbodiimide hydrochloride', '1-ethyl-3-(3-dimethylaminopropyl)carbodiimide hydrochloride'], also: [EDCI]}
+HATU: {cas: '148893-10-1', names: []}
+DEAD: {cas: '1972-28-7', names: [diethyl azodicarboxylate]}
+DIAD: {cas: '2446-83-5', names: [diisopropyl azodicarboxylate]}
+PPh3: {cas: '603-35-0', names: [triphenylphosphine]}
+DIBAL-H: {cas: '1191-15-7', names: [diisobutylaluminum hydride, diisobutylaluminium hydride], also: [DIBAL]}
+LiAlH4: {cas: '16853-85-3', names: [lithium aluminum hydride, lithium aluminium hydride], also: [LAH]}
+NaBH4: {cas: '16940-66-2', names: [sodium borohydride]}
+NaBH(OAc)3: {cas: '56553-60-7', names: [sodium triacetoxyborohydride], also: [STAB]}
+NaBH3CN: {cas: '25895-60-7', names: [sodium cyanoborohydride]}
+SOCl2: {cas: '7719-09-7', names: [thionyl chloride]}
+POCl3: {cas: '10025-87-3', names: [phosphorus oxychloride, 'phosphorus(V) oxychloride']}
+(COCl)2: {cas: '79-37-8', names: [oxalyl chloride]}
+Et3SiH: {cas: '617-86-7', names: [triethylsilane]}
+NaN3: {cas: '26628-22-8', names: [sodium azide]}
+NFSI: {cas: '133745-75-2', names: [N-fluorobenzenesulfonimide]}
+B2pin2: {cas: '73183-34-3', names: ['bis(pinacolato)diboron']}
+Pd(PPh3)4: {cas: '14221-01-3', names: ['tetrakis(triphenylphosphine)palladium(0)', 'tetrakis(triphenylphosphine)palladium']}
+Pd(OAc)2: {cas: '3375-31-3', names: ['palladium(II) acetate', palladium acetate]}
+Pd2(dba)3: {cas: '51364-51-3', names: ['tris(dibenzylideneacetone)dipalladium(0)']}
+CuI: {cas: '7681-65-4', names: ['copper(I) iodide']}
+
+# Salts for work-up
+NH4Cl: {cas: '12125-02-9', names: [ammonium chloride]}
+Na2SO4: {cas: '7757-82-6', names: [sodium sulfate]}
+MgSO4: {cas: '7487-88-9', names: [magnesium sulfate]}
+Na2S2O3: {cas: '7772-98-7', names: [sodium thiosulfate]}
+NaCl: {cas: '7647-14-5', names: [sodium chloride]}

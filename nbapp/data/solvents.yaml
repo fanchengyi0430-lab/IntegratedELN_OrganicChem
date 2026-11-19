@@ -1,0 +1,242 @@
+# PubChem reference values retrieved on 2026-11-17. Each row names its source, licence and date.
+# A row stays reviewed: false until the researcher has checked it. hexanes is taken as n-hexane.
+# Rows are reference values, not measurements of the material in a notebook.
+solvents:
+- name: dichloromethane
+  match: [\bdcm\b, dichloromethane, ch2cl2]
+  query: dichloromethane
+  cid: 6344
+  bp_c: 39.75
+  bp_text: 39.75 °C at 760 mm Hg
+  bp_source: Hazardous Substances Data Bank (HSDB)
+  bp_licence: https://www.nlm.nih.gov/web_policies.html
+  bp_spread_c: 0.25
+  candidates: 6
+  retrieved: '2026-11-17'
+  url: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/6344/JSON?heading=Boiling+Point
+  reviewed: false
+  note: ''
+- name: chloroform
+  match: [chcl3, chloroform]
+  query: chloroform
+  cid: 6212
+  bp_c: 61.12
+  bp_text: 61.12 °C
+  bp_source: Hazardous Substances Data Bank (HSDB)
+  bp_licence: https://www.nlm.nih.gov/web_policies.html
+  bp_spread_c: 0.88
+  candidates: 7
+  retrieved: '2026-11-17'
+  url: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/6212/JSON?heading=Boiling+Point
+  reviewed: false
+  note: ''
+- name: 1,2-dichloroethane
+  match: [\bdce\b, dichloroethane]
+  query: 1,2-dichloroethane
+  cid: 11
+  bp_c: 83.4
+  bp_text: 83.4 °C
+  bp_source: Hazardous Substances Data Bank (HSDB)
+  bp_licence: https://www.nlm.nih.gov/web_policies.html
+  bp_spread_c: 0.166667
+  candidates: 8
+  retrieved: '2026-11-17'
+  url: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/11/JSON?heading=Boiling+Point
+  reviewed: false
+  note: ''
+- name: THF
+  match: [\bthf\b, tetrahydrofuran]
+  query: tetrahydrofuran
+  cid: 8028
+  bp_c: 65.0
+  bp_text: 65 °C
+  bp_source: Hazardous Substances Data Bank (HSDB)
+  bp_licence: https://www.nlm.nih.gov/web_policies.html
+  bp_spread_c: 1.111111
+  candidates: 7
+  retrieved: '2026-11-17'
+  url: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/8028/JSON?heading=Boiling+Point
+  reviewed: false
+  note: ''
+- name: acetonitrile
+  match: [mecn, acetonitrile]
+  query: acetonitrile
+  cid: 6342
+  bp_c: 81.6
+  bp_text: 81.6 °C at 760 mm Hg
+  bp_source: Hazardous Substances Data Bank (HSDB)
+  bp_licence: https://www.nlm.nih.gov/web_policies.html
+  bp_spread_c: 0.4
+  candidates: 6
+  retrieved: '2026-11-17'
+  url: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/6342/JSON?heading=Boiling+Point
+  reviewed: false
+  note: ''
+- name: ethyl acetate
+  match: [etoac, ethyl acetate]
+  query: ethyl acetate
+  cid: 8857
+  bp_c: 77.1
+  bp_text: 77.1 °C
+  bp_source: Hazardous Substances Data Bank (HSDB)
+  bp_licence: https://www.nlm.nih.gov/web_policies.html
+  bp_spread_c: 0.222222
+  candidates: 8
+  retrieved: '2026-11-17'
+  url: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/8857/JSON?heading=Boiling+Point
+  reviewed: false
+  note: ''
+- name: methanol
+  match: [meoh, methanol]
+  query: methanol
+  cid: 887
+  bp_c: 64.7
+  bp_text: 64.7 °C at 760 mm Hg
+  bp_source: Hazardous Substances Data Bank (HSDB)
+  bp_licence: https://www.nlm.nih.gov/web_policies.html
+  bp_spread_c: 1.111111
+  candidates: 7
+  retrieved: '2026-11-17'
+  url: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/887/JSON?heading=Boiling+Point
+  reviewed: false
+  note: ''
+- name: ethanol
+  match: [etoh, \bethanol]
+  query: ethanol
+  cid: 702
+  bp_c: 78.24
+  bp_text: 78.24 °C
+  bp_source: Hazardous Substances Data Bank (HSDB)
+  bp_licence: https://www.nlm.nih.gov/web_policies.html
+  bp_spread_c: 0.5
+  candidates: 8
+  retrieved: '2026-11-17'
+  url: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/702/JSON?heading=Boiling+Point
+  reviewed: false
+  note: ''
+- name: isopropanol
+  match: [iproh, isopropanol, 2-propanol]
+  query: isopropanol
+  cid: 3776
+  bp_c: 82.3
+  bp_text: 82.3 °C at 760 mm Hg
+  bp_source: Hazardous Substances Data Bank (HSDB)
+  bp_licence: https://www.nlm.nih.gov/web_policies.html
+  bp_spread_c: 0.8
+  candidates: 8
+  retrieved: '2026-11-17'
+  url: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/3776/JSON?heading=Boiling+Point
+  reviewed: false
+  note: ''
+- name: acetone
+  match: [acetone]
+  query: acetone
+  cid: 180
+  bp_c: 56.08
+  bp_text: 56.08 °C
+  bp_source: Hazardous Substances Data Bank (HSDB)
+  bp_licence: https://www.nlm.nih.gov/web_policies.html
+  bp_spread_c: 0.5
+  candidates: 8
+  retrieved: '2026-11-17'
+  url: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/180/JSON?heading=Boiling+Point
+  reviewed: false
+  note: ''
+- name: diethyl ether
+  match: [et2o, diethyl ether]
+  query: diethyl ether
+  cid: 3283
+  bp_c: 35.0
+  bp_text: 35 °C
+  bp_source: ILO-WHO International Chemical Safety Cards (ICSCs)
+  bp_licence: Creative Commons CC BY 4.0
+  bp_spread_c: 0.555556
+  candidates: 5
+  retrieved: '2026-11-17'
+  url: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/3283/JSON?heading=Boiling+Point
+  reviewed: false
+  note: ''
+- name: hexanes
+  match: ['(?<!cyclo)hexane']
+  query: n-hexane
+  cid: 8058
+  bp_c: 68.73
+  bp_text: 68.73 °C
+  bp_source: Hazardous Substances Data Bank (HSDB)
+  bp_licence: https://www.nlm.nih.gov/web_policies.html
+  bp_spread_c: 0.3
+  candidates: 7
+  retrieved: '2026-11-17'
+  url: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/8058/JSON?heading=Boiling+Point
+  reviewed: false
+  note: Hexanes is a mixture. The PubChem query uses n-hexane.
+- name: pentane
+  match: ['(?<!cyclo)pentane']
+  query: pentane
+  cid: 8003
+  bp_c: 36.06
+  bp_text: 36.06 °C
+  bp_source: Hazardous Substances Data Bank (HSDB)
+  bp_licence: https://www.nlm.nih.gov/web_policies.html
+  bp_spread_c: 0.5
+  candidates: 7
+  retrieved: '2026-11-17'
+  url: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/8003/JSON?heading=Boiling+Point
+  reviewed: false
+  note: ''
+- name: toluene
+  match: ['(?<!fluoro)toluene\b']
+  query: toluene
+  cid: 1140
+  bp_c: 110.6
+  bp_text: 110.6 °C
+  bp_source: Hazardous Substances Data Bank (HSDB)
+  bp_licence: https://www.nlm.nih.gov/web_policies.html
+  bp_spread_c: 0.611111
+  candidates: 8
+  retrieved: '2026-11-17'
+  url: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/1140/JSON?heading=Boiling+Point
+  reviewed: false
+  note: ''
+- name: trifluorotoluene
+  match: [phcf3, trifluorotoluene]
+  query: trifluorotoluene
+  cid: 7368
+  bp_c: 103.46
+  bp_text: 103.46 °C
+  bp_source: Hazardous Substances Data Bank (HSDB)
+  bp_licence: https://www.nlm.nih.gov/web_policies.html
+  bp_spread_c: 5.126667
+  candidates: 3
+  retrieved: '2026-11-17'
+  url: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/7368/JSON?heading=Boiling+Point
+  reviewed: false
+  note: ''
+- name: 1,4-dioxane
+  match: [dioxane]
+  query: 1,4-dioxane
+  cid: 31275
+  bp_c: 101.2
+  bp_text: 101.2 °C
+  bp_source: Hazardous Substances Data Bank (HSDB)
+  bp_licence: https://www.nlm.nih.gov/web_policies.html
+  bp_spread_c: 0.5
+  candidates: 6
+  retrieved: '2026-11-17'
+  url: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/31275/JSON?heading=Boiling+Point
+  reviewed: false
+  note: ''
+- name: DMF
+  match: [\bdmf\b, dimethylformamide]
+  query: dimethylformamide
+  cid: 6228
+  bp_c: 152.8
+  bp_text: 152.8 °C
+  bp_source: Hazardous Substances Data Bank (HSDB)
+  bp_licence: https://www.nlm.nih.gov/web_policies.html
+  bp_spread_c: 0.5
+  candidates: 7
+  retrieved: '2026-11-17'
+  url: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/6228/JSON?heading=Boiling+Point
+  reviewed: false
+  note: ''

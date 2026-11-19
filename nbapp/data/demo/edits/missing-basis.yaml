@@ -1,0 +1,30 @@
+id: EXP-001
+schema_version: 1
+title: Dibenzalacetone by double aldol condensation
+type: synthesis
+status: open
+researcher: Demo researcher
+question: Make dibenzalacetone at 10 mmol to test the literature procedure before scaling up (Exp 3).
+key_result: 2.41 g = 103% of theory; check
+notes: [Demo record. All values are invented for teaching.]
+flags:
+- {id: '1.1', tier: needed, text: Record the melting point (ref 1 gives 104–107 °C for the crude product).}
+- {id: '1.2', tier: blocking, text: '2.41 g exceeds the theoretical 2.343 g. Check the dry mass, residual solvent and purity.'}
+- {id: '1.3', tier: needed, text: Confirm whether the 2.41 g was weighed before or after drying. Ref 1 dries the solid to constant weight.}
+started: '2026-11-02'
+procedure: ['NaOH in water and ethanol at 20–25 °C. Half of the benzaldehyde–acetone mixture added, stirred 15 min. The rest added, stirred 30 min. Yellow solid filtered and washed with water.']
+procedure_basis: Recorded. Adapted from ref 1 at one fiftieth of its scale. Drying not recorded.
+result: {text: '2.41 g, 10.286 mmol = 102.9% of theory'}
+materials:
+- {id: R1, name: acetone, formula: C3H6O, mw: 58.08, smiles: CC(C)=O, inchikey: CSCPPACGZOOCGX-UHFFFAOYSA-N, density: 0.7845, density_basis: 'literature: handbook value, entered for the demo. Check it before use.', amount: '0.581 g, 0.74 mL', mmol: 10.0, equiv: 1.0}
+- {id: R2, name: benzaldehyde, formula: C7H6O, mw: 106.124, smiles: O=Cc1ccccc1, density: 1.044, density_basis: 'literature: handbook value, entered for the demo. Check it before use.', amount: '2.122 g, 2.03 mL', mmol: 20.0, equiv: 2.0}
+- {id: A1, name: sodium hydroxide, formula: NaOH, mw: 39.997, amount: 2.000 g, mmol: 50.0, equiv: 5.0, note: dissolved in the water}
+- {id: S1, name: water, amount: 20 mL}
+- {id: S2, name: ethanol, amount: 16 mL}
+- {id: P1, name: dibenzalacetone, formula: C17H14O, mw: 234.298, smiles: O=C(/C=C/c1ccccc1)/C=C/c1ccccc1, inchikey: WMKGGPCROCCUDY-PHEQNACWSA-N, amount: 2.343 g theoretical, mmol: 10.0, note: 2 PhCHO + 1 acetone → 1 product}
+next: The solid is the reference sample for the screen in Exp 2.
+refs: [1]
+scheme_image: experiments/EXP-001/scheme/condensation.png
+scheme_alt: Dibenzalacetone by double aldol condensation
+attachments:
+- {path: experiments/EXP-001/scheme/condensation.png, kind: scheme, sha256: 8e061e251e93f022e353bac834fe957d002f630f03f32c7db3c4b0c82075feee, size: 23219, added: '2026-11-18T20:50:34-05:00', by: demo}
